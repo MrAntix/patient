@@ -1,6 +1,6 @@
 {
-  "name": "Antix Patient",
-  "short_name": "Patient",
+  "name": "CyLabus Patient Diary",
+  "short_name": "Patient Diary",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
