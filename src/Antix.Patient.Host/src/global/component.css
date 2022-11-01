@@ -1,0 +1,12 @@
+.header{
+  background-color: var(--primary-color);
+  color: var(--primary-color-alt);
+}
+
+.title{
+  font-weight: 100;
+}
+
+.content {
+  padding: var(--pad);
+}

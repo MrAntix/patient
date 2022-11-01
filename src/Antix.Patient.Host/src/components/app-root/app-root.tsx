@@ -8,8 +8,10 @@ import { Component, h } from '@stencil/core';
 export class AppRoot {
   render() {
     return <div>
-      <header>
-        <h1>Patient</h1>
+      <header class="header content">
+        <h1 class="title">
+          Patient Diary
+        </h1>
       </header>
 
       <main>

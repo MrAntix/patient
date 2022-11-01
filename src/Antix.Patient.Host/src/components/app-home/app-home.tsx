@@ -7,10 +7,8 @@ import { Component, h } from '@stencil/core';
 })
 export class AppHome {
   render() {
-    return <div class="app-home">
-      <p>
-        Patient
-      </p>
+    return <div class="content">
+
     </div>
   }
 }
