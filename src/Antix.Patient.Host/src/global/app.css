@@ -4,7 +4,8 @@
   --primary-color: #92b2de;
   --primary-color-alt: #fff;
 
-  --low-color: #0000000f;
+  --low-color: #00000009;
+  --high-color: #ffffff16;
 
   --unit: .5rem;
   --pad-horizontal: var(--unit);
