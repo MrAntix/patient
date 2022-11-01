@@ -1,0 +1,134 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".well-known\**" CopyToPublishDirectory="PreserveNewest" Exclude="$(DefaultItemExcludes)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\a.svg" />
+    <None Include="wwwroot\assets\build\patient-1024x1024.png" />
+    <None Include="wwwroot\assets\build\patient-1080x1920.png" />
+    <None Include="wwwroot\assets\build\patient-144x144.png" />
+    <None Include="wwwroot\assets\build\patient-192x192.png" />
+    <None Include="wwwroot\assets\build\patient-24x24.png" />
+    <None Include="wwwroot\assets\build\patient-256x256.png" />
+    <None Include="wwwroot\assets\build\patient-384x384.png" />
+    <None Include="wwwroot\assets\build\patient-48x48.png" />
+    <None Include="wwwroot\assets\build\patient-512x512.png" />
+    <None Include="wwwroot\assets\build\patient-96x96.png" />
+    <None Include="wwwroot\assets\build\patient-apple-1024x1024.png" />
+    <None Include="wwwroot\assets\build\patient-apple-167x167.png" />
+    <None Include="wwwroot\assets\build\patient-apple-180x180.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-144x144.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-192x192.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-24x24.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-256x256.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-384x384.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-48x48.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-512x512.png" />
+    <None Include="wwwroot\assets\build\patient-maskable-96x96.png" />
+    <None Include="wwwroot\assets\build\patient.ico" />
+    <None Include="wwwroot\assets\patient-apple.svg" />
+    <None Include="wwwroot\assets\patient-maskable.svg" />
+    <None Include="wwwroot\assets\patient.svg" />
+    <None Include="wwwroot\build\app.css" />
+    <None Include="wwwroot\build\app.esm.js" />
+    <None Include="wwwroot\build\app.js" />
+    <None Include="wwwroot\build\index.esm.js" />
+    <None Include="wwwroot\build\p-19310858.js" />
+    <None Include="wwwroot\build\p-2a2c80d3.js" />
+    <None Include="wwwroot\build\p-4262a426.js" />
+    <None Include="wwwroot\build\p-4d64b7b7.js" />
+    <None Include="wwwroot\build\p-4dc4efbb.entry.js" />
+    <None Include="wwwroot\build\p-68a6863a.entry.js" />
+    <None Include="wwwroot\build\p-6ccca388.entry.js" />
+    <None Include="wwwroot\build\p-82b4b0c6.entry.js" />
+    <None Include="wwwroot\build\p-8d931d4d.entry.js" />
+    <None Include="wwwroot\build\p-951e4598.entry.js" />
+    <None Include="wwwroot\build\p-9bc267a7.entry.js" />
+    <None Include="wwwroot\build\p-b4ce5ef6.entry.js" />
+    <None Include="wwwroot\build\p-bfdad5aa.entry.js" />
+    <None Include="wwwroot\build\p-cd8296b0.js" />
+    <None Include="wwwroot\build\p-dd93bca4.entry.js" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\sw.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-background-sync.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-background-sync.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-background-sync.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-background-sync.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-broadcast-update.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-broadcast-update.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-broadcast-update.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-broadcast-update.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-cacheable-response.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-cacheable-response.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-cacheable-response.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-cacheable-response.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-core.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-core.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-core.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-core.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-expiration.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-expiration.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-expiration.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-expiration.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-navigation-preload.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-navigation-preload.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-navigation-preload.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-navigation-preload.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-offline-ga.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-offline-ga.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-offline-ga.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-offline-ga.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-precaching.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-precaching.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-precaching.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-precaching.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-range-requests.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-range-requests.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-range-requests.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-range-requests.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-recipes.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-recipes.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-recipes.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-recipes.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-routing.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-routing.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-routing.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-routing.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-strategies.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-strategies.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-strategies.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-strategies.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-streams.dev.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-streams.dev.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-streams.prod.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-streams.prod.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-sw.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-sw.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.es5.mjs" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.es5.mjs.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.mjs" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.mjs.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.umd.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.dev.umd.js.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.es5.mjs" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.es5.mjs.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.mjs" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.mjs.map" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.umd.js" />
+    <None Include="wwwroot\workbox-v6.5.4\workbox-window.prod.umd.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Zero.Logging.File" Version="2.2.1" />
+  </ItemGroup>
+</Project>

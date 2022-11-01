@@ -1,0 +1,29 @@
+{
+  "name": "patient",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "build.dev": "stencil build --dev",
+    "build.watch": "stencil build --dev --watch",
+    "build.images": "node .build.images.mjs",
+    "prebuild": "npm run build.images",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll --screenshot"
+  },
+  "devDependencies": {
+    "@stencil/core": "2.19.2",
+    "@types/jest": "^29.2.1",
+    "convert-svg-to-png": "^0.6.4",
+    "imagemin": "^8.0.1",
+    "imagemin-pngquant": "^9.0.2",
+    "jest": "^29.2.2",
+    "jest-cli": "^29.2.2",
+    "puppeteer": "^19.2.0",
+    "to-ico": "^1.1.5",
+    "workbox-build": "^6.5.4"
+  },
+  "license": "MIT"
+}
