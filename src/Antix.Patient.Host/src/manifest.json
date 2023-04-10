@@ -3,11 +3,13 @@
   "short_name": "Patient Diary",
   "start_url": "/",
   "display": "standalone",
-  "icons": [{
-    "src": "assets/build/patient-512x512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "background_color": "#336699",
-  "theme_color": "#336699"
+  "icons": [
+    {
+      "src": "assets/build/patient-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#92b2de",
+  "theme_color": "#92b2de"
 }
