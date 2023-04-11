@@ -8,7 +8,7 @@ import { Component, h } from '@stencil/core';
 export class AppHome {
   render() {
     return <div class="content">
-
+      Hello
     </div>
   }
 }
